@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .ordered{
+                color:DodgerBlue;
+            }
+            .content-container {
+                background-color: beige;
+                margin: 80px ;
+                padding:20px
+            } /*
+            .content-container {
+                background-color: rgb(23, 81, 243);
+            }*/
+
+
+            .block-example {
+                width: 300px;
+                height: 150px;
+                background-color: lightblue;
+                margin: 10px;
+                padding: 20px;
+            }
+     
+            .inline-example {
+                color: red;
+                font-style: italic;
+                border: 1px solid black;
+                padding: 5px;
+                margin: 2px;
+            }
+     
+        </style>
+    </head>
+
+<body>
+   <div class="block-example">
+       <p>This is a block element with defined width, height, margin, and padding.</p>
+   </div>
+
+   <p>This is an <span class="inline-example">inline element</span> with specific styling.</p>
+   <p class="ordered">
+    This span is an <span class="highlight">inline-level element</span>; its
+    background has been colored to display both the beginning and end of the
+    element's influence. Input elements, like 
+    <form>
+    <input type="radio" id="value1" name="value1"/>
+    <label for="value1">Value 1</label>
+    <input type="radio" id="value2"  name="value1"/>
+    <label for="value2">Value 2</label>
+    </form>
+    <input type="checkbox" />, are also inline-level content.
+  </p>
+  <!-- ordered lists -->
+  <ol class="ordered"> 
+    <li>Frontend
+        <ul>
+            <li>HTML
+            <li>CSS
+            <li>Javascript
+        </ul>
+    <li>Backend
+        <ul>
+            <li>Python
+        </ul>
+  </ol>
+
+  <!-- unordered lists -->
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+
+  </ul>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+  </dl>
+
+  <div class="content-container">
+    <img src="https://t4.ftcdn.net/jpg/00/65/70/65/360_F_65706597_uNm2SwlPIuNUDuMwo6stBd81e25Y8K8s.jpg" alt="fruits">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos ab quod sed rerum at in tenetur repellendus pariatur repudiandae quisquam accusamus quis possimus, nesciunt praesentium! Veniam dolorem quos repellendus?
+    </p>
+    <ul>
+        <li>Fruits
+            <ol>
+                <li>Bananas
+                <li>Apples
+                <li>Cherries
+            </ol>
+    </ul>
+  </div>
+</body>
+</html>

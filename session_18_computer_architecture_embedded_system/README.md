@@ -140,8 +140,8 @@ lscpu```
 
 you'll connect an LED light to a simulated Raspberry Pi embedded system.
 
-1. Visit https://wokwi.com/projects/new/micropython-pi-pico(opens in a new tab)
-2. Visit raspberrypi.com(opens in a new tab) to view the pinout diagram(opens in a new tab) for the Raspberry Pi Pico
+1. Visit https://wokwi.com/projects/new/micropython-pi-pico (opens in a new tab)
+2. Visit raspberrypi.com (opens in a new tab) to view the pinout diagram(opens in a new tab) for the Raspberry Pi Pico
 3. Add an LED
 4. Connect the LED negative lead to a ground pin of the Raspberry Pi. (Negative leads are shorter than positive leads.) (Ground pins are prefixed with “GND”.)
 5. Connect the LED positive lead to a general purpose input-output (GPIO) pin of the Raspberry pi. (Positive leads are longer.) (GPIO pins are prefixed with “GP”.)

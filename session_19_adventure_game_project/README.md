@@ -38,5 +38,6 @@ python unittest_adventure_game_deci-lvl2_v2.py adventure_game.py pycodestyle
 ![setting in VS code](format_step_1.png)
 3- Choose autopep8
 ![autopep8](autopep8.png)
-4- In the code file right click and choose "Format Document"
+4- In the code file right click and choose "Format Document" or **Press ALT + Shift + F**
+![format](format.png)
 
